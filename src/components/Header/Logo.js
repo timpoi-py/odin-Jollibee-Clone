@@ -54,7 +54,7 @@ const logo = (color) => {
 };
 const Logo = (props) => {
   return (
-    <Link to="/odin-jollibee-clone/" className="logo">
+    <Link to="/" className="logo">
       {logo(props.color)}
     </Link>
   );
