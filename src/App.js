@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Delivery from "./components/Delivery/Delivery";
 import Promotions from "./components/Promotions/Promotions";
 import { Routes, Route } from "react-router-dom";
+import Menu from "./components/Menu/Menu";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/" element={<Main />} />
         <Route path="/Delivery" element={<Delivery />} />
         <Route path="/Promotions" element={<Promotions />} />
+        <Route path="/Menu" element={<Menu />} />
       </Routes>
       <Footer />
     </>
