@@ -18,7 +18,7 @@ const arrow = (
 const NavList = () => {
   return (
     <ul className="nav-list">
-      <Link className="delivery" to="/Delivery">
+      <Link className="delivery" to="/odin-jollibee-clone/Delivery">
         Delivery
       </Link>
       <Link className="locations">Locations</Link>
