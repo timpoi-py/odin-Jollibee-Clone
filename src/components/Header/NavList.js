@@ -21,13 +21,12 @@ const NavList = () => {
       <Link className="delivery" to="/Delivery">
         Delivery
       </Link>
-      <Link className="locations">Locations</Link>
       <Link className="menu">
         Menu
         {arrow}
         <MenuDropDown />
       </Link>
-      <Link className="promotions">
+      <Link className="promotions" to="/Promotions">
         Promotions
         {arrow}
         <PromotionsDropDown />
