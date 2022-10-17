@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d5e0b857b1561025204c",
+    "revision": "7c0c59bdffb81764c36d",
     "url": "/odin-jollibee-clone/static/css/main.0b057ae5.chunk.css"
   },
   {
-    "revision": "d5e0b857b1561025204c",
-    "url": "/odin-jollibee-clone/static/js/main.20293168.chunk.js"
+    "revision": "7c0c59bdffb81764c36d",
+    "url": "/odin-jollibee-clone/static/js/main.3cfe59f9.chunk.js"
   },
   {
     "revision": "1a54e9b4b63509413fb9",
@@ -20,28 +20,28 @@ self.__precacheManifest = [
     "url": "/odin-jollibee-clone/static/media/download.97aff226.png"
   },
   {
-    "revision": "88c6db6aff3fd62e405356b69dd60aa1",
-    "url": "/odin-jollibee-clone/static/media/call.88c6db6a.png"
-  },
-  {
     "revision": "b7167349eb60a0a1a1d2db854516eab3",
     "url": "/odin-jollibee-clone/static/media/order_pickup.b7167349.png"
   },
   {
-    "revision": "04f677c009810bf907f0f405b1fdd922",
-    "url": "/odin-jollibee-clone/static/media/promos-funko.04f677c0.jpg"
+    "revision": "88c6db6aff3fd62e405356b69dd60aa1",
+    "url": "/odin-jollibee-clone/static/media/call.88c6db6a.png"
   },
   {
     "revision": "d7c4a37a87f337d71087aa24ebe1e400",
     "url": "/odin-jollibee-clone/static/media/what-wedo.d7c4a37a.jpeg"
   },
   {
-    "revision": "fb3e80a7fe54e61072e57b2e3303d312",
-    "url": "/odin-jollibee-clone/static/media/what-we-stand.fb3e80a7.jpeg"
+    "revision": "04f677c009810bf907f0f405b1fdd922",
+    "url": "/odin-jollibee-clone/static/media/promos-funko.04f677c0.jpg"
   },
   {
     "revision": "aba79432c1082edf7a611c01d080ab31",
     "url": "/odin-jollibee-clone/static/media/promos-last.aba79432.jpg"
+  },
+  {
+    "revision": "fb3e80a7fe54e61072e57b2e3303d312",
+    "url": "/odin-jollibee-clone/static/media/what-we-stand.fb3e80a7.jpeg"
   },
   {
     "revision": "2e5a20f4bb6ae699ed81389970510df6",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/odin-jollibee-clone/static/media/featured-burger.6e4ffb4b.png"
   },
   {
-    "revision": "3bb00fb274714885be27d26c3bf1c26e",
+    "revision": "3bb473101e018f9ccce86dcc02911df0",
     "url": "/odin-jollibee-clone/index.html"
   }
 ];
