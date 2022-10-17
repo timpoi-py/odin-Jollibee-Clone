@@ -11,8 +11,8 @@ const App = () => {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/Delivery" element={<Delivery />} />
+        <Route path="odin-jollibee-clone/" element={<Main />} />
+        <Route path="odin-jollibee-clone/Delivery" element={<Delivery />} />
       </Routes>
       <Footer />
     </>
