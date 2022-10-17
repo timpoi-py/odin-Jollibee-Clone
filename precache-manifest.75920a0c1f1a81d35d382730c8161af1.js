@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d775a6737b67b3af3aa8",
+    "revision": "d5e0b857b1561025204c",
     "url": "/odin-jollibee-clone/static/css/main.0b057ae5.chunk.css"
   },
   {
-    "revision": "d775a6737b67b3af3aa8",
-    "url": "/odin-jollibee-clone/static/js/main.88e05714.chunk.js"
+    "revision": "d5e0b857b1561025204c",
+    "url": "/odin-jollibee-clone/static/js/main.20293168.chunk.js"
   },
   {
     "revision": "1a54e9b4b63509413fb9",
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/odin-jollibee-clone/static/media/download.97aff226.png"
   },
   {
-    "revision": "b7167349eb60a0a1a1d2db854516eab3",
-    "url": "/odin-jollibee-clone/static/media/order_pickup.b7167349.png"
-  },
-  {
     "revision": "88c6db6aff3fd62e405356b69dd60aa1",
     "url": "/odin-jollibee-clone/static/media/call.88c6db6a.png"
+  },
+  {
+    "revision": "b7167349eb60a0a1a1d2db854516eab3",
+    "url": "/odin-jollibee-clone/static/media/order_pickup.b7167349.png"
   },
   {
     "revision": "04f677c009810bf907f0f405b1fdd922",
@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/odin-jollibee-clone/static/media/promos-last.aba79432.jpg"
   },
   {
-    "revision": "22ebcad64ea5ecd1ce381b5b8149044f",
-    "url": "/odin-jollibee-clone/static/media/hero_banner.22ebcad6.jpeg"
-  },
-  {
     "revision": "2e5a20f4bb6ae699ed81389970510df6",
     "url": "/odin-jollibee-clone/static/media/promo-mid.2e5a20f4.png"
+  },
+  {
+    "revision": "22ebcad64ea5ecd1ce381b5b8149044f",
+    "url": "/odin-jollibee-clone/static/media/hero_banner.22ebcad6.jpeg"
   },
   {
     "revision": "6c3bcf1ea48e7a2798cdd5248eccfda2",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/odin-jollibee-clone/static/media/featured-burger.6e4ffb4b.png"
   },
   {
-    "revision": "47c3838efd408e993954bd73dc128f44",
+    "revision": "3bb00fb274714885be27d26c3bf1c26e",
     "url": "/odin-jollibee-clone/index.html"
   }
 ];
