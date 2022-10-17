@@ -1,0 +1,137 @@
+.header {
+  background-color: var(--clr-primary);
+  border-bottom: 5px solid var(--clr-secondary);
+  width: 100%;
+  z-index: 10;
+
+  position: sticky;
+  top: 0;
+}
+
+.header__container {
+  margin: 0 auto;
+  max-width: 1250px;
+  color: white;
+  padding: 0.5em 1em;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.logo {
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.nav-list {
+  font-family: var(--font-bold);
+  font-size: 1.2em;
+
+  display: flex;
+  align-items: center;
+  gap: 2em;
+
+  padding-inline-start: 0;
+}
+
+.nav-list > * {
+  cursor: pointer;
+  padding: 1em 0;
+  user-select: none;
+
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+.nav-list > * .arrow {
+  fill: white;
+  scale: 0.8;
+}
+
+.nav-list > *:hover {
+  color: var(--clr-white);
+}
+
+.nav-list li.menu:hover svg.arrow,
+.nav-list li.promotions:hover svg.arrow {
+  /* fill: var(--clr-white); */
+  fill: var(--clr-white);
+}
+
+.nav-list .menu,
+.nav-list .promotions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+
+  position: relative;
+}
+
+.menu-drop-down-list,
+.promotions-drop-down-list {
+  position: absolute;
+  top: 3em;
+  background-color: white;
+  padding-inline-start: 0;
+  padding: 1em 0;
+}
+
+.menu-drop-down-list li,
+.promotions-drop-down-list li {
+  color: black;
+  list-style-type: none;
+  text-align: center;
+  font-family: var(--font-primary);
+  animation: menu 500ms ease-in-out forwards;
+
+  width: 20ch;
+  padding: 0.5em 0;
+
+  display: none;
+}
+
+.nav-list .menu:hover .menu-drop-down-list li,
+.nav-list .promotions:hover .promotions-drop-down-list li {
+  display: block;
+}
+
+@keyframes menu {
+  0% {
+    opacity: 0;
+    scale: 1.2;
+  }
+
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.menu-drop-down-list li:hover,
+.promotions-drop-down-list li:hover {
+  color: rgb(0 0 0 / 0.8);
+  text-decoration: underline;
+}
+
+.order-btn {
+  padding: 0.6em 1.2em;
+  font-size: 1.3em;
+  font-family: var(--font-bold);
+  cursor: pointer;
+
+  border-radius: 999em;
+  border: none;
+  background-color: var(--clr-secondary);
+  color: white;
+
+  box-shadow: 0 3px 4px 1px rgb(0 0 0 / 0.3);
+  user-select: none;
+}
+
+.order-btn:hover {
+  background-color: var(--clr-hover);
+}

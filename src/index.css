@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "VAGRoundedSTDBlack";
+  src: url(fonts/VAGRoundedStdBlack.otf);
+}
+@font-face {
+  font-family: "VAGRoundedSTDThin";
+  src: url(fonts/VAGRoundedStdThin.otf);
+}
+@font-face {
+  font-family: "VAGRoundedSTDLight";
+  src: url(fonts/VAGRoundedStdLight.otf);
+}
+
+:root {
+  --clr-primary: #d6001c;
+  --clr-secondary: #fa8003;
+  --clr-text: #212529;
+  --clr-accent: #009ca6;
+  --clr-white: #e3e3e3;
+  --clr-bg-secondary: #ffeab8;
+  --clr-hover: #ff620f;
+
+  --font-primary: "VAGRoundedSTDLight";
+  --font-thin: "VAGRoundedSTDThin";
+  --font-bold: "VAGRoundedSTDBlack";
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+  user-select: none;
+}
+
+body {
+  font-family: var(--font-bold);
+  color: var(--clr-text);
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}

@@ -1,0 +1,144 @@
+.footer {
+  border-top: 3px solid var(--clr-secondary);
+}
+
+.footer__container {
+  padding: 2em 1em 0;
+  display: grid;
+  gap: 1em;
+}
+
+/* SECTION 1 */
+.section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section1 .logo svg {
+  width: 150px;
+}
+
+.section1 .order-btn {
+  justify-self: end;
+  align-self: flex-end;
+}
+
+/* SECTION 2 */
+
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+/* SECTION 2 ---- Accounts */
+
+.accts {
+  display: grid;
+  gap: 1em;
+  align-self: flex-start;
+}
+
+/* all h5 */
+h5 {
+  font-size: 1.3em;
+}
+
+.icons {
+  display: flex;
+  gap: 0.5em;
+}
+
+.icons svg {
+  width: 30px;
+  fill: var(--clr-primary);
+  cursor: pointer;
+}
+
+.icons svg:hover {
+  scale: 1.1;
+  position: relative;
+  bottom: 0.5em;
+}
+
+/* SECTION 2 ---- Footer Nav */
+
+.footer-nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+
+.footer-nav ul {
+  padding-top: 0.5em;
+  display: grid;
+  gap: 0.5em;
+}
+
+.footer-nav li {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: var(--font-primary);
+  cursor: pointer;
+}
+
+.footer-nav li:hover {
+  text-decoration: underline;
+}
+
+/* SECTION 2 ---- Download Button */
+
+.download-btns {
+  display: grid;
+  gap: 1em;
+  align-self: flex-start;
+}
+
+.download-btn {
+  width: 16ch;
+  background-color: hsl(0, 0%, 5%);
+  padding: 0.4em;
+  border-radius: 10px;
+  cursor: pointer;
+
+  box-shadow: 0 0 10px 0px rgb(13, 13, 13, 0.4);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.download-btn:hover {
+  scale: 1.05;
+}
+
+.download-btn .btn-cta {
+  display: grid;
+  gap: 0;
+}
+
+.download-btn .btn-cta p {
+  color: white;
+}
+
+.download-btn .btn-cta p:first-child {
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
+
+.download-btn .btn-cta p:last-child {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+.download-btns svg {
+  width: 32px;
+  fill: white;
+}
+
+.copyright {
+  text-align: center;
+  font-family: var(--font-primary);
+  margin-top: 1em;
+}

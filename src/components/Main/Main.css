@@ -1,0 +1,323 @@
+/*  GENERAL */
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+/* HERO SECTION */
+.heroSection {
+  height: 500px;
+  width: 100%;
+
+  background-image: url(../../imgs/hero_banner.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.heroSection__container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+
+  height: 100%;
+}
+
+.slogan {
+  display: grid;
+  gap: 2em;
+  justify-items: center;
+  max-width: calc(1250px / 2);
+  user-select: none;
+}
+
+.slogan > *:not(button) {
+  color: white;
+  font-family: var(--font-bold);
+  text-align: center;
+}
+
+.slogan h1 {
+  font-size: 3em;
+}
+
+.slogan h3 {
+  font-size: 1.8em;
+}
+
+.slogan .order-btn {
+  width: max-content;
+  scale: 1.2;
+}
+
+/* CALL TO ACTION SECTION (CTA) */
+
+.CTA__container {
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2.5em;
+}
+
+.CTA__container > * {
+  display: grid;
+  justify-items: center;
+  gap: 1em;
+
+  cursor: pointer;
+}
+
+.order:hover,
+.download:hover,
+.call:hover {
+  scale: 1.05;
+}
+
+.CTA__container > * > h3 {
+  font-size: 1.8em;
+  font-family: var(--font-bold);
+  letter-spacing: 2px;
+  color: var(--clr-text);
+  user-select: none;
+  text-align: center;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.order-img {
+  background-image: url(../../imgs/order_pickup.png);
+}
+
+.download-img {
+  background-image: url(../../imgs/download.png);
+}
+
+.call-img {
+  background-image: url(../../imgs/call.png);
+}
+
+hr {
+  width: min(1100px, 90%);
+  margin: 0 auto;
+}
+
+/* EXCLUSIVE PROMOS WITH SOME FEATURED SECTION*/
+
+.promos__container,
+.featured__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+
+  padding: 2em 0;
+}
+
+.promos__container h2,
+.featured__container h2 {
+  font-size: 2em;
+}
+
+.promos__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+
+.promos__cards .card {
+  width: min(327px, 30vw);
+  aspect-ratio: 0.8;
+  background-size: cover;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 1px rgb(0 0 0/ 0.4);
+  cursor: pointer;
+}
+
+.promos__cards .card:hover {
+  scale: 1.01;
+}
+
+.funko-card {
+  background-image: url(../../imgs/promos-funko.jpg);
+}
+
+.freebie-card {
+  background-image: url(../../imgs/promo-mid.png);
+}
+
+.tenten-card {
+  background-image: url(../../imgs/promos-last.jpg);
+}
+
+.promos__container button {
+  background-color: var(--clr-secondary);
+  border: none;
+  font-family: var(--font-bold);
+  color: white;
+  padding: 0.8em 1.6em;
+  border-radius: 99em;
+  font-size: 1.5em;
+  box-shadow: 0 0 10px 1px rgb(0 0 0/ 0.4);
+  cursor: pointer;
+}
+
+.promos__container button:hover {
+  background-color: var(--clr-hover);
+}
+
+/* FEATURED SECTION */
+
+.featured {
+  background-color: var(--clr-bg-secondary);
+}
+
+.featured__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5em;
+}
+
+.featured .card {
+  width: min(380px, 30vw);
+  border-radius: 30px;
+  padding: 1.5em 1.5em 0;
+  color: white;
+  line-height: 1.4;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.featured .card:hover {
+  scale: 1.01;
+}
+
+.featured .card h4 {
+  font-size: 2em;
+}
+
+.featured .card p {
+  font-size: 1.4em;
+  font-family: var(--font-thin);
+  font-weight: bold;
+}
+
+.featured .card img {
+  margin: auto auto 0;
+}
+
+.chicken-card {
+  background-color: #d6001c;
+}
+
+.spag-card {
+  background-color: #ffa400;
+}
+
+.burger-card {
+  background-color: var(--clr-accent);
+}
+
+.featured__container button {
+  background-color: var(--clr-secondary);
+  border: none;
+  font-family: var(--font-bold);
+  color: white;
+  padding: 0.8em 1.6em;
+  border-radius: 99em;
+  font-size: 1.5em;
+  box-shadow: 0 0 10px 1px rgb(0 0 0/ 0.4);
+  cursor: pointer;
+}
+
+.featured__container button:hover {
+  background-color: var(--clr-hover);
+}
+
+/* WHO WE ARE SECTION*/
+
+.who-we-are__container {
+  display: flex;
+  justify-content: center;
+  padding: 2.5em 1em;
+  gap: 10vw;
+}
+
+.what-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.what-section h4 {
+  font-size: 2em;
+  padding-top: 0.5em;
+}
+
+.what-we-do hr {
+  width: 60%;
+  border-bottom: none;
+  border: 3px solid var(--clr-secondary);
+}
+
+.what-we-stand hr {
+  width: 80%;
+  border-bottom: none;
+  border: 3px solid var(--clr-primary);
+}
+
+.what-section p {
+  width: 40ch;
+  font-family: var(--font-thin);
+  text-align: center;
+  line-height: 1.4;
+}
+
+.what-section .img {
+  border-radius: 20px;
+  width: 220px;
+  height: 220px;
+  aspect-ratio: 1;
+  position: relative;
+}
+
+.what-section .img::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  border-radius: 20px;
+}
+
+.what-we-do-img {
+  background-image: url(../../imgs/what-wedo.jpeg);
+}
+
+.what-we-do-img::before {
+  top: 20px;
+  left: 35px;
+  background-color: var(--clr-primary);
+}
+
+.what-we-stand-img {
+  background-image: url(../../imgs/what-we-stand.jpeg);
+}
+
+.what-we-stand-img::before {
+  top: 20px;
+  left: -35px;
+  background-color: var(--clr-secondary);
+}
