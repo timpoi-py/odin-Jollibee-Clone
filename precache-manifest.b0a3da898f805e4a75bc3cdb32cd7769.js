@@ -28,28 +28,28 @@ self.__precacheManifest = [
     "url": "/odin-jollibee-clone/static/media/call.88c6db6a.png"
   },
   {
-    "revision": "d7c4a37a87f337d71087aa24ebe1e400",
-    "url": "/odin-jollibee-clone/static/media/what-wedo.d7c4a37a.jpeg"
-  },
-  {
     "revision": "04f677c009810bf907f0f405b1fdd922",
     "url": "/odin-jollibee-clone/static/media/promos-funko.04f677c0.jpg"
   },
   {
-    "revision": "aba79432c1082edf7a611c01d080ab31",
-    "url": "/odin-jollibee-clone/static/media/promos-last.aba79432.jpg"
+    "revision": "d7c4a37a87f337d71087aa24ebe1e400",
+    "url": "/odin-jollibee-clone/static/media/what-wedo.d7c4a37a.jpeg"
   },
   {
     "revision": "fb3e80a7fe54e61072e57b2e3303d312",
     "url": "/odin-jollibee-clone/static/media/what-we-stand.fb3e80a7.jpeg"
   },
   {
-    "revision": "2e5a20f4bb6ae699ed81389970510df6",
-    "url": "/odin-jollibee-clone/static/media/promo-mid.2e5a20f4.png"
+    "revision": "aba79432c1082edf7a611c01d080ab31",
+    "url": "/odin-jollibee-clone/static/media/promos-last.aba79432.jpg"
   },
   {
     "revision": "22ebcad64ea5ecd1ce381b5b8149044f",
     "url": "/odin-jollibee-clone/static/media/hero_banner.22ebcad6.jpeg"
+  },
+  {
+    "revision": "2e5a20f4bb6ae699ed81389970510df6",
+    "url": "/odin-jollibee-clone/static/media/promo-mid.2e5a20f4.png"
   },
   {
     "revision": "6c3bcf1ea48e7a2798cdd5248eccfda2",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/odin-jollibee-clone/precache-manifest.bbd35005339433cd5df00923c3dea6fb.js"
+  "/odin-jollibee-clone/precache-manifest.b0a3da898f805e4a75bc3cdb32cd7769.js"
 );
 
 workbox.clientsClaim();
