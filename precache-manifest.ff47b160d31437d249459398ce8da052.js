@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7c0c59bdffb81764c36d",
+    "revision": "d775a6737b67b3af3aa8",
     "url": "/odin-jollibee-clone/static/css/main.0b057ae5.chunk.css"
   },
   {
-    "revision": "7c0c59bdffb81764c36d",
-    "url": "/odin-jollibee-clone/static/js/main.3cfe59f9.chunk.js"
+    "revision": "d775a6737b67b3af3aa8",
+    "url": "/odin-jollibee-clone/static/js/main.88e05714.chunk.js"
   },
   {
     "revision": "1a54e9b4b63509413fb9",
@@ -32,6 +32,10 @@ self.__precacheManifest = [
     "url": "/odin-jollibee-clone/static/media/promos-funko.04f677c0.jpg"
   },
   {
+    "revision": "aba79432c1082edf7a611c01d080ab31",
+    "url": "/odin-jollibee-clone/static/media/promos-last.aba79432.jpg"
+  },
+  {
     "revision": "d7c4a37a87f337d71087aa24ebe1e400",
     "url": "/odin-jollibee-clone/static/media/what-wedo.d7c4a37a.jpeg"
   },
@@ -40,16 +44,12 @@ self.__precacheManifest = [
     "url": "/odin-jollibee-clone/static/media/what-we-stand.fb3e80a7.jpeg"
   },
   {
-    "revision": "aba79432c1082edf7a611c01d080ab31",
-    "url": "/odin-jollibee-clone/static/media/promos-last.aba79432.jpg"
+    "revision": "2e5a20f4bb6ae699ed81389970510df6",
+    "url": "/odin-jollibee-clone/static/media/promo-mid.2e5a20f4.png"
   },
   {
     "revision": "22ebcad64ea5ecd1ce381b5b8149044f",
     "url": "/odin-jollibee-clone/static/media/hero_banner.22ebcad6.jpeg"
-  },
-  {
-    "revision": "2e5a20f4bb6ae699ed81389970510df6",
-    "url": "/odin-jollibee-clone/static/media/promo-mid.2e5a20f4.png"
   },
   {
     "revision": "6c3bcf1ea48e7a2798cdd5248eccfda2",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/odin-jollibee-clone/static/media/featured-burger.6e4ffb4b.png"
   },
   {
-    "revision": "3bb473101e018f9ccce86dcc02911df0",
+    "revision": "47c3838efd408e993954bd73dc128f44",
     "url": "/odin-jollibee-clone/index.html"
   }
 ];
