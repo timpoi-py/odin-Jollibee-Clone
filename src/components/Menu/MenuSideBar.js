@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import SideBarCategory from "./SideBarCategory";
 import bestSeller from "../../imgs/menu-best-seller.png";
 import beverages from "../../imgs/menu-beverages.png";
@@ -21,54 +21,55 @@ import superMeal from "../../imgs/menu-supermeals.png";
 const MenuSideBar = () => {
   return (
     <div className="menu__sidebar">
-      <Link>
+      <NavLink to="/Menu" end>
         <SideBarCategory img={bestSeller} category="Bestsellers" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/new-products">
         <SideBarCategory img={newProducts} category="New Products" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/family-meals">
         <SideBarCategory img={familyMeals} category="Family Meals" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/breakfast-pageNotFound">
         <SideBarCategory img={breakfast} category="Breakfast" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/chickenjoy-pageNotFound">
         <SideBarCategory img={chickenjoy} category="Chickenjoy" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/burgers-pageNotFound">
         <SideBarCategory img={burgers} category="Burgers" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/jolly-spaghetti-pageNotFound">
         <SideBarCategory img={spaghetti} category="Jolly Spaghetti" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/burger-steak-pageNotFound">
         <SideBarCategory img={burgerSteak} category="Burger Steak" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/super-meals-pageNotFound">
         <SideBarCategory img={superMeal} category="Super Meals" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/chicken-sandwich-pageNotFound">
         <SideBarCategory img={chickenSandwich} category="Chicken Sandwich" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/hotdog-pies-pageNotFound">
         <SideBarCategory img={hotdogPies} category="Jolly Hotdog & Pies" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/palabok-pageNotFound">
         <SideBarCategory img={palabok} category="Palabok" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/fries-sides-pageNotFound">
         <SideBarCategory img={friesSides} category="Fries & Sides" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/desserts-pageNotFound">
         <SideBarCategory img={desserts} category="Desserts" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/beverages-pageNotFound">
         <SideBarCategory img={beverages} category="Beverages" />
-      </Link>
-      <Link>
+      </NavLink>
+      <NavLink to="/Menu/jolly-kiddie-meal-pageNotFound">
         <SideBarCategory img={kiddieMeal} category="Jolly Kiddie Meal" />
-      </Link>
+      </NavLink>
+      <Outlet />
     </div>
   );
 };

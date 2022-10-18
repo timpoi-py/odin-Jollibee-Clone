@@ -2,15 +2,17 @@
   border: 4px solid var(--clr-secondary);
   border-radius: 1em;
   padding: 1em;
-  max-width: 40ch;
+  width: 40ch;
   box-shadow: 0 0 10px 2px var(--clr-bg-secondary);
 
   display: grid;
   gap: 1em;
+  justify-items: center;
+  align-items: center;
 }
 
 .category__card img {
-  max-width: 200px;
+  max-height: 175px;
   margin: 0 auto;
 }
 

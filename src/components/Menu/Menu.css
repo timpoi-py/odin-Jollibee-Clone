@@ -1,14 +1,16 @@
 /* Menu */
 .menu {
   display: grid;
-  grid-template-columns: calc(80px + 18ch) auto;
+  grid-template-columns: calc(80px + 20ch) auto;
 }
 
 /* Side Bar */
 .menu__sidebar {
   height: 100vh;
   overflow-y: scroll;
+  overflow-x: visible;
 }
+
 .menu__sidebar > * {
   text-decoration: none;
   color: var(--clr-text);
@@ -24,13 +26,19 @@
   background-color: var(--clr-secondary);
 }
 
+.menu__sidebar .active div {
+  background-color: var(--clr-secondary);
+  color: white;
+  font-size: 1.1em;
+}
+
 .sidebar__category {
   display: flex;
   align-items: center;
   gap: 0.5em;
 
   padding: 0.5em 1em;
-  background-color: var(--clr-bg-secondary);
+  background-color: var(--clr-bg-secondary-lighter);
   cursor: pointer;
 }
 

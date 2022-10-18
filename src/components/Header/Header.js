@@ -4,7 +4,7 @@ import NavList from "./NavList";
 import OrderBtn from "./OrderBtn";
 import "./Header.css";
 
-const Header = (props) => {
+const Header = () => {
   return (
     <>
       <div className="header">

@@ -1,5 +1,6 @@
 import React from "react";
 import "./CategoryCard.css";
+import OrderBtn from "../Header/OrderBtn";
 
 const CategoryCard = ({ img, menu, description }) => {
   return (
@@ -7,6 +8,7 @@ const CategoryCard = ({ img, menu, description }) => {
       <img src={img} alt="" />
       <h4>{menu}</h4>
       <p>{description}</p>
+      <OrderBtn>Order Now</OrderBtn>
     </div>
   );
 };
